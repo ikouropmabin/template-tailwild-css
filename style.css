@@ -1,0 +1,20 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* .p12 {
+    background-image: url('../coba1/img/9384216.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+} */
+
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+}

@@ -1,0 +1,476 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Coffee Shop</title>
+
+    <!-- link -->
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100">
+    <div class="flex">
+
+        <!-- navbar -->
+        <div class="bg-gray-900 text-black w-64 min-h-screen flex flex-col items-center py-8">
+            <div class="mb-8">
+                <img alt="Coffee Shop Logo" class="rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/JwZcsTnOKe3jJyq7o8mcCHdjdFBfO4IsMsz7hhjeTTVUN9TnA.jpg" width="100" />
+            </div>
+            <nav class="text-center">
+                <ul>
+                    <li class="mb-4">
+                        <a class="text-yellow-500" href="#home"> HOME</a>
+                    </li>
+                    <li class="mb-4">
+                        <a class="text-gray-400" href="#about">ABOUT</a>
+                    </li>
+                    <li class="mb-4">
+                        <a class="text-gray-400" href="#menu">OUR MENU</a>
+                    </li>
+                    <li class="mb-4">
+                        <a class="text-gray-400" href="#produk">PRODUCT</a>
+                    </li>
+                    <li class="mb-4">
+                        <a class="text-gray-400" href="#kontak">CONTACT</a>
+                    </li>
+                    <li class="mb-4">
+                        <a class="text-gray-400" href="#galeri">GALLERY</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="mt-auto flex space-x-4">
+                <a class="text-gray-400" href="#">
+                    <i class="fab fa-facebook-f"> </i>
+                </a>
+                <a class="text-gray-400" href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a class="text-gray-400" href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <!-- Main Content -->
+
+
+
+        <div class="flex-1" id="home">
+            <!-- Hero Section -->
+            <div class="relative">
+                <img alt="Coffee Shop Interior" class="w-full h-100 object-cover" height="800" src="img/remove/herobackground.png" width="1200" />
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="text-center text-black">
+                        <h1 class="text-6xl font-bold">
+                            ORI MAGIC COFFEE
+                        </h1>
+                        <p class="text-2xl">
+                            Ap Kain Kone
+                        </p>
+                        <i class="fas fa-coffee text-6xl mt-4">
+                        </i>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../coba1/img/9384216.jpg'); background-size: cover; background-position: center; " -->
+            <!-- Our Story Section -->
+            <div class="bg-gray-50 py-16 px-8 " id="about">
+                <div class="flex flex-col items-center">
+                    <img alt="Coffee Shop Badge" class="mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/rjDNOaQfFTU8I6zBsvfd83OZmhguRNFpy4afMQTgO0tZN9TnA.jpg" width="50" />
+                </div>
+                <h2 class="text-3xl font-bold text-center">
+                    OUR STORY
+                </h2>
+                <br><br>
+                <div class="max-w-4xl mx-auto flex items-center">
+                    <div class="animate__animated animate__fadeInUp w-1/2">
+                        <img alt="Barista pouring coffee" class="rounded-lg" height="400" src="img/2621231.jpg" width="600" />
+                    </div>
+                    <div class="w-1/2 pl-12">
+                        <p class="animate__animated animate__fadeInUp text-gray-700">
+                            Joe's Coffee context it often happens that private or corporate clients order a publication to be made and presented with the actual content still not being ready. Think of a news blog that's filled with content hourly on the day of going live. However,
+                            reviewers tend to be distracted by content, say random text copied from a or the internet. The are likely to focus on the text, disregarding the layout and its elements. Besides, random text risks to be unintendedly humorous
+                            or offensive type of leaks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- menu -->
+            <div class=" bg-gray-50 py-16 px-14" id="menu">
+                <h1 class="text-4xl font-bold text-center mb-4">
+                    COFFEE MENU
+                </h1>
+                <p class="text-center text-gray-600 mb-8">
+                    Mores euten accusamus magni doloribus qui nostrum ex tenetur dicta rem eveniet ut soluta voluptates inventore absum estron
+                </p>
+                <div class="grid grid-cols-2 gap-8">
+                    <div class="flex items-center">
+                        <img alt="Cup of Caffe Macchiato" class="w-12 h-12 mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/xre45uWkSvxfUEsQPV54qgf1wmLyermeveQ0jkBH5U1KJ1f0JA.jpg" width="50" />
+                        <div>
+                            <h2 class="font-bold">
+                                Caffe Macchiato
+                                <span class="text-orange-600"> $15</span>
+                            </h2>
+                            <p class="text-gray-600">
+                                Shot of espresso extracted the Italian way.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <img alt="Cup of Hot Chocolate" class="w-12 h-12 mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/ByhCqq9XSz4RAFsfe0b6hqtf9ALmmehkIXco8JFSSeKal6PdC.jpg" width="50" />
+                        <div>
+                            <h2 class="font-bold">
+                                Hot Chocolate
+                                <span class="text-orange-600"> $25</span>
+                            </h2>
+                            <p class="text-gray-600">
+                                Real chocolate blended with steamed milk.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <img alt="Cup of Caffe Latte" class="w-12 h-12 mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/g4QY9zYBZlrmAVKyUkHvDJfnOBFTvflzVye579dtZfx0S9nOB.jpg" width="50" />
+                        <div>
+                            <h2 class="font-bold">
+                                Caffe Latte
+                                <span class="text-orange-600">$20</span>
+                            </h2>
+                            <p class="text-gray-600">
+                                Espresso and steamed milk with foamed.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <img alt="Cup of Strawberry Milk" class="w-12 h-12 mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/B4dUt0YnhAqRHFen0kn5rvjfVdNhczWu77AeX1Ohz8pOpenOB.jpg" width="50" />
+                        <div>
+                            <h2 class="font-bold">
+                                Strawberry Milk
+                                <span class="text-orange-600"> $15</span>
+                            </h2>
+                            <p class="text-gray-600">
+                                Real Strawberry blended with steamed milk.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <img alt="Cup of Espresso Macchiato" class="w-12 h-12 mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/E8emMW1fmvvBiUglATGswJYPneDOUJLThTZCxPJCzmXHpenOB.jpg" width="50" />
+                        <div>
+                            <h2 class="font-bold">
+                                Espresso Macchiato
+                                <span class="text-orange-600">$25</span>
+                            </h2>
+                            <p class="text-gray-600">
+                                Espresso marked with foamed milk.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <img alt="Cup of Asian Lemon Tea" class="w-12 h-12 mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/AijFDPkeKc08Ci5egv6J7N2FgLQhHKOFLO6XxmyTeByRpenOB.jpg" width="50" />
+                        <div>
+                            <h2 class="font-bold">
+                                Asian Lemon Tea
+                                <span class="text-orange-600">$10</span>
+                            </h2>
+                            <p class="text-gray-600">
+                                Ask your Barista about our selection of teas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <img alt="Cup of Caffe Americano" class="w-12 h-12 mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/zaFE9SnjdI5nPdRFVINBGfKYJy0ke15fioJ1EeReezUXI1f0JA.jpg" width="50" />
+                        <div>
+                            <h2 class="font-bold">
+                                Caffe Americano
+                                <span class="text-orange-600">$18</span>
+                            </h2>
+                            <p class="text-gray-600">
+                                Espresso topped with hot water.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <img alt="Cup of Black Asian Tea" class="w-12 h-12 mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/5s2eP93PpI26Ai4kwiUZIldeqAW1KDuJTQivkZCPptSlUfTnA.jpg" width="50" />
+                        <div>
+                            <h2 class="font-bold">
+                                Black Asian Tea
+                                <span class="text-orange-600">$25</span>
+                            </h2>
+                            <p class="text-gray-600">
+                                A blend of black tea, spices, honey and milk.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--menu end  -->
+
+
+
+
+
+            <!-- produk star -->
+            <div class="bg-gray-50 p-12" id="produk">
+                <div class="text-center mb-10">
+                    <h1 class="text-4xl font-bold">
+                        OUR PRODUCTS
+                    </h1>
+                    <p class="text-gray-600 mt-2">
+                        Mores euten accusamus magni doloribus qui nostrum ex tenetur dicta rem eveniet ut soluta voluptates inventore absum estron
+                    </p>
+                </div>
+                <div class="grid grid-cols-4 gap-10">
+                    <div class="text-center">
+                        <img alt="Bag of American Coffee" class="mx-auto mb-4" height="300" src="img/produk/product3.png" width="200" />
+                        <h2 class="text-xl font-bold">
+                            AMERICAN COFFEE </h2>
+                        <p class="text-orange-600 text-lg mb-4"> $25.00 </p>
+                        <button class="border border-gray-800 py-2 px-4"> ADD TO CART</button>
+                    </div>
+                    <div class="text-center">
+                        <img alt="Bag of Costa Rica Light Coffee" class="mx-auto mb-4" height="300" src="img/produk/product3.png " width="200" />
+                        <h2 class="text-xl font-bold">
+                            COST RICA LIGHT</h2>
+                        <p class="text-orange-600 text-lg mb-4">$35.00</p>
+                        <button class="bg-orange-600 text-white py-2 px-4"> ADD TO CART</button>
+                    </div>
+                    <div class="text-center">
+                        <img alt="Bag of Jamaican Mountain Coffee" class="mx-auto mb-4" height="300" src="img/produk/product3.png" width="200" />
+                        <h2 class="text-xl font-bold">
+                            JAMAICAN MOUNTAIN
+                        </h2>
+                        <p class="text-orange-600 text-lg mb-4"> $15.00</p>
+                        <button class="border border-gray-800 py-2 px-4">ADD TO CART</button>
+                    </div>
+                    <div class="text-center">
+                        <img alt="Bag of Ethiopian Fancy Coffee" class="mx-auto mb-4" height="300" src="img/produk/product3.png" width="200" />
+                        <h2 class="text-xl font-bold">
+                            ETHIOPIAN FANCY
+                        </h2>
+                        <p class="text-orange-600 text-lg mb-4"> $25.00
+                        </p>
+                        <button class="border border-gray-800 py-2 px-4"> ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <!-- produk end -->
+
+
+
+            <!-- contact star -->
+            <div class="bg-gray-50 p-12" id="kontak">
+                <div class="text-center mb-8">
+                    <h1 class="text-4xl font-bold mb-2">BOOK YOUR TABLE</h1>
+                    <p class="text-gray-600 mb-4">Mores euten accusamus magni doloribus qui nostrum ex tenetur dicta rem eveniet ut soluta voluptates inventore absum estron</p>
+                </div>
+                <form class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="relative">
+                        <input type="text-md-2" placeholder="YOUR NAME" class="w-full p-4 border border-gray-300 rounded">
+                        <!-- <i class="fas fa-user absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-500"></i> -->
+                    </div>
+                    <div class="relative">
+                        <input type="email" placeholder="EMAIL ADDRESS" class="w-full p-4 border border-gray-300 rounded">
+                        <!-- <i class="fas fa-envelope absolute left-24 top-1/2 transform -translate-y-1/2 text-gray-500"></i> -->
+                    </div>
+                    <div class="relative">
+                        <input type="text" placeholder="PHONE NUMBER" class="w-full p-4 border border-gray-300 rounded">
+                        <!-- <i class="fas fa-phone absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i> -->
+                    </div>
+                    <div class="relative">
+                        <input type="text" placeholder="MM/DD/YYYY" class="w-full p-4 border border-gray-300 rounded">
+                        <!-- <i class="fas fa-calendar-alt absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i> -->
+                    </div>
+                    <div class="relative">
+                        <select class="w-full p-4 border border-gray-300 rounded">
+                            <option>6:00 AM</option>
+                            <option>7:00 AM</option>
+                            <option>8:00 AM</option>
+                        </select>
+                        <!-- <i class="fas fa-clock absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i> -->
+                    </div>
+                    <div class="relative">
+                        <select class="w-full p-4 border border-gray-300 rounded">
+                            <option>02 PERSON</option>
+                            <option>03 PERSON</option>
+                            <option>04 PERSON</option>
+                        </select>
+                        <!-- <i class="fas fa-users absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i> -->
+                    </div>
+                    <div class="relative col-span-1 md:col-span-2">
+                        <textarea placeholder="YOUR MESSAGE..." class="w-full p-4 border border-gray-300 rounded h-32"></textarea>
+                        <!-- <i class="fas fa-comment-dots absolute left-3 top-3 text-gray-500"></i> -->
+                    </div>
+                </form>
+                <div class="text-center mt-8">
+                    <button class="px-8 py-4 bg-yellow-600 text-white font-bold rounded">BOOK NOW</button>
+                </div>
+            </div>
+            <!-- contact end -->
+
+
+
+            <!-- style="background-image: url('../coba1/img/remove/123.png'); background-size: cover; background-position: center; -->
+            <!-- our visitor star -->
+            <div class="bg-gray-50 p-12" id="visitor">
+                <div class=" text-center ">
+                    <h1 class="text-4xl font-bold mb-2 ">OUR HAPPY VISITORS</h1>
+                    <p class="text-gray-600 mb-6 ">Mores eutom accusamus magni doloribus qui nostrum ex tenetur dicta rem eveniet ut soluta voluptates inventore absum estron</p>
+                    <div class="flex justify-center items-center space-x-4 ">
+                        <button class="bg-gray-200 p-2 rounded-full ">
+                            <i class="fas fa-arrow-left text-brown-500 "></i>
+                        </button>
+                        <div class="bg-teal-300 p-6 rounded-lg shadow-md w-80 ">
+                            <p class="text-gray-700 mb-4 ">Aores autem accusamus magni doloribus qui nostrum tenetur dicta rem eveniet soluta voluptates inventore. Aesum dolorum fugiat sint. veritatis libero explicabo obcaecati voluptate, accusantium optio voluptatem.</p>
+                            <p class="font-bold ">- CHARLES JUAREZ</p>
+                        </div>
+                        <div class="bg-yellow-100 p-6 rounded-lg shadow-md w-80 ">
+                            <p class="text-gray-700 mb-4 ">Mores autem accusamus magni doloribus qui nostrum tenetur dicta rem eveniet soluta voluptates inventore. Aesum dolorum fugiat sint. veritatis libero explicabo obcaecati voluptate, accusantium optio voluptatem.</p>
+                            <p class="font-bold ">- RAICHEL SMITH</p>
+                        </div>
+                        <button class="bg-gray-200 p-2 rounded-full ">
+                            <i class="fas fa-arrow-right text-brown-500 "></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- visitor end -->
+
+
+
+            <!-- our gallery star -->
+            <div class="bg-gray-50 p-12" id="galeri">
+                <div class="text-center">
+                    <h1 class="text-4xl font-bold">
+                        OUR GALLERY
+                    </h1>
+                    <p class="text-gray-600 mt-2">
+                        Mores autem accusamus magni doloribus qui nostrum ex tenetur dicta rem eveniet ut soluta voluptates inventore absum eston
+                    </p>
+                    <div class="flex justify-center mt-4">
+                        <span class="text-yellow-500">
+                     <i class="fas fa-coffee"></i>
+                    </span>
+                    </div>
+                    <div class="flex justify-center mt-4 space-x-4">
+                        <a class="text-yellow-500" href="#"> ALL</a>
+                        <a class="text-gray-600" href="#">INTERIOR</a>
+                        <a class="text-gray-600" href="#"> COFFEE</a>
+                        <a class="text-gray-600" href="#"> PRODUCTS</a>
+                        <a class="text-gray-600" href="#">BEANS</a>
+                        <a class="text-gray-600" href="#">ORGANIC</a>
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 gap-4 mt-10">
+                    <div>
+                        <img alt="Hanging lights in a cafe" class="w-full h-full object-cover" height="400" src="img/galeri/1.png" width="400" />
+                    </div>
+                    <div>
+                        <img alt="Cup of coffee with foam art" class="w-full h-full object-cover" height="400" src="img/galeri/2.jpg" width="400" />
+                    </div>
+                    <div>
+                        <img alt="Pouring coffee into a cup" class="w-full h-full object-cover" height="400" src="img/galeri/3.jpg" width="400" />
+                    </div>
+                    <div>
+                        <img alt="Interior of a busy cafe" class="w-full h-full object-cover" height="400" src="img/galeri/kursi1.jpg" width="400" />
+                    </div>
+                    <div>
+                        <img alt="Coffee beans with a cup of coffee" class="w-full h-full object-cover" height="400" src="img/galeri/kursi2.jpg" width="400" />
+                    </div>
+                    <div>
+                        <img alt="Empty table and chairs in a cafe" class="w-full h-full object-cover" height="400" src="img/galeri/rumah1.jpg" width="400" />
+                    </div>
+                    <div>
+                        <img alt="Coffee grinder" class="w-full h-full object-cover" height="400" src="img/galeri/kopi2.jpg" width="400" />
+                    </div>
+                    <div>
+                        <img alt="Espresso machine pouring coffee" class="w-full h-full object-cover" height="400" src="img/galeri/kopi1.jpg" width="400" />
+                    </div>
+                    <div>
+                        <img alt="Coffee roasting machine" class="w-full h-full object-cover" height="400" src="img/galeri/kopi4.jpg" width="400" />
+                    </div>
+                </div>
+            </div>
+            <!-- our gallery end -->
+
+            <!-- footer star-->
+            <div class="bg-gray-900 text-gray-400">
+                <div class="relative">
+                    <img alt="Map of New York City" class="w-full h-96 object-cover opacity-50" height="600" src="https://storage.googleapis.com/a1aa/image/xIEhx89xF7LzAVzeIb7HDSRK6SOnFeBwvLC3UM6jWdBYcCqTA.jpg" width="1920" />
+                    <div class="absolute inset-0 flex justify-center items-center">
+                        <i class="fas fa-map-marker-alt text-yellow-500 text-4xl">
+                  </i>
+                    </div>
+                </div>
+                <div class="bg-gray-50 py-12">
+                    <div class="container mx-auto flex justify-around">
+                        <div class="text-center">
+                            <i class="fas fa-map-marker-alt text-3xl text-black-400 mb-2"></i>
+                            <p class="text-black">
+                                CJ4Q+34 Yabansai, Kota Jayapura, Papua
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-calendar-alt text-3xl text-gray-400 mb-2"></i>
+                            <p class="text-black">
+                                BUKU TELEPON
+                            </p>
+                            <p class="text-black">
+                                +1 317-364-4578
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-clock text-3xl text-gray-400 mb-2"></i>
+                            <p class="text-black">
+                                MON - SAT : 7:00AM - 8:00PM
+                            </p>
+                            <p class="text-yellow-500">
+                                SUNDAY : CLOSED
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 py-6">
+                    <div class="container mx-auto text-center">
+                        <p class="text-gray-500">
+                            2024 ALL RIGHTS RESERVED
+                        </p>
+                        <p class="text-gray-500">
+                            MR. FREDDY DESIGN BY PINTEREST.
+                        </p>
+                        <div class="flex justify-center mt-4">
+                            <img alt="Coffee logo" class="mx-2" height="50" src="https://storage.googleapis.com/a1aa/image/svD7zGLlkY54HFaDbQU2HxeOgKyosPyxhhpFyUAKvdsLOB1JA.jpg" width="50" />
+                            <!-- <a class="mx-2 text-gray-500" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="mx-2 text-gray-500" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="mx-2 text-gray-500" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer -->
+
+
+
+        </div>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
