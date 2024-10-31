@@ -1,1 +1,1 @@
-LIHAT DEMO(https://github.com/ikouropmabin/template-tailwild-css/blob/master/index.html)
+LIHAT DEMO(https://ikouropmabin.github.io/template-tailwild-css/)
